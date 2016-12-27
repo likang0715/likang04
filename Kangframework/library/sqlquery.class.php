@@ -79,7 +79,7 @@ class SQLQuery
 	 * @return [type]                [description]
 	 */
 	function query($query,$singleResult = 0){
-		 echo $query;
+		 //echo $query;
 		$this->_result = mysql_query($query,$this->_dbHandle);
 		if(preg_match("/select/i",$query)){
 
