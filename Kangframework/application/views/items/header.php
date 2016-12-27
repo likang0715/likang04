@@ -1,6 +1,7 @@
 <html>
 <head>
 <title><?php echo $title?></title>
+<meta charset="utf-8">
 <style>
 .item {width:400px;}
 input {color:#222222;font-family:georgia,times;font-size:24px;font-weight:normal;line-height:1.2em;color:black;}
